@@ -16,3 +16,16 @@
         Negative
 
 */
+#include <stdio.h>
+int main(){
+    int i;
+    printf("Test case:\n");
+    printf("Input :\n");
+    scanf("%d",&i);
+    if (i > 0){
+        printf("Output:\n Positive");
+    }if(i < 0){
+        printf("Output:\n Negative");
+    }
+    
+}
